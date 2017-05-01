@@ -1,3 +1,4 @@
+
 # diff use of tput
 tput clear
 echo "number of rows=\c"
