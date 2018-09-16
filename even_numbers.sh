@@ -3,9 +3,11 @@ count=1
 while [ $count -lt 10 ]
 do
 	rem=`expr $count % 2`
-		if [ "$rem" -eq 0 ]
+		if [ "$rem" -eq 1 ]
 		then
 			echo "$count"
 		fi
 	count=`expr $count + 1`
 done
+
+
